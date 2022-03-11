@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Smooch+Sans:wght@100&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body {
+   font-size: 100%; 
+   background: linear-gradient(#052CB6 , #07b3f2d7 );
+}
+
+.cabecalho {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 24px;
+
+
+}
+.cabecalho-imagem {
+    height: 72px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item {
+    font-family: Fredoka;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+.imagem-wifi ,.conteudo-principal-titulo {
+ width: 300px;
+ display:flex;
+ align-items: center;
+ }
+ .imagem-wifi{
+     padding-right: 30px;
+ }
+
+.conteudo {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+.conteudo-principal {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo {
+    font-family:Smooch Sans ;
+    font-weight: 400;
+    font-size: 80px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+.conteudo-principal-botao{
+    background-color: #052CB6;
+    width: 185px;
+    height: 60px;
+    font-family:fredoka ;
+    font-size: 24px;
+    font-weight: 400px;
+    color:#FFF2E7 ;
+    border: none;
+    box-shadow:4px 5px 4px rgba(0, 0, 0, 0.25) ;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.conteudo-principal-botao:hover{
+    background-color: rgba(214, 218, 16, 0.939);
+}
+.conteudo-principal-imagem{
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: fredoka;
+    font-size: 24px;
+    font-weight: 400px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family:'Courier New', Courier, monospace;
+    color: #FFF2E7;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+  display: flex;
+  align-items:center;
+  height: 400px;
+  width: 400px;
+  position:relative;
+  left: 700px;
+  bottom: 150px;
+
+}
+
+
+
